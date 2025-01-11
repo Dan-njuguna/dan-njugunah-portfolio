@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@/utils";
 
 export function H3(props: React.HTMLProps<HTMLHeadingElement>) {

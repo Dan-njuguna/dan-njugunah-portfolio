@@ -30,7 +30,7 @@ export default function Page() {
         <H2>Skills</H2>
         <p>
           I&apos;m a Machine Learning Engineer specializing in{" "}
-          <strong>Large Language Models</strong>, <strong>Computer Vision</strong>, and{" "}
+          <strong>Large Language Models</strong>, <strong>Computer Vision</strong>, <b>Natural Language Processing</b> and{" "}
           <strong>AI deployment</strong>.
         </p>
         <p>
@@ -41,29 +41,31 @@ export default function Page() {
           get the optimal economical opportunities🧾🧾 and in energy I intend to revolutionarise
           the energy consumption and saving ability to have a greener world!🌿🌿
         </p>
+
+        {/* Programming Languages and Tools */}
         <div className="flex flex-wrap space-x-4">
           <div className="flex items-center space-x-2">
-            <Image src="./icons/python.svg" alt="Python" width={24} height={24} className="h-6 w-6 " />
+            <Image src="/icons/python.svg" alt="Python" width={24} height={24} className="h-6 w-6 " />
             <span>Python</span>
           </div>
           <div className="flex items-center space-x-2">
-            <Image src="./icons/javascript.svg" alt="JavaScript" width={24} height={24} className="h-6 w-6" />
+            <Image src="/icons/javascript.svg" alt="JavaScript" width={24} height={24} className="h-6 w-6" />
             <span>JavaScript</span>
           </div>
           <div className="flex items-center space-x-2">
-            <Image src="./icons/typescript.svg" alt="TypeScript" width={24} height={24} className="h-6 w-6" />
+            <Image src="/icons/typescript.svg" alt="TypeScript" width={24} height={24} className="h-6 w-6" />
             <span>TypeScript</span>
           </div>
           <div className="flex items-center space-x-2">
-            <Image src="./icons/nextjs.svg" alt="Next.js" width={24} height={24} className="h-6 w-6" />
+            <Image src="/icons/nextjs.svg" alt="Next.js" width={24} height={24} className="h-6 w-6" />
             <span>Next.js</span>
           </div>
           <div className="flex items-center space-x-2">
-            <Image src="./icons/c.svg" alt="C" width={24} height={24} className="h-6 w-6" />
+            <Image src="/icons/c.svg" alt="C" width={24} height={24} className="h-6 w-6" />
             <span>C</span>
           </div>
           <div className="flex items-center space-x-2">
-            <Image src="./icons/c-plusplus.svg" alt="C++" width={24} height={24} className="h-6 w-6" />
+            <Image src="/icons/c-plusplus.svg" alt="C++" width={24} height={24} className="h-6 w-6" />
             <span>C++</span>
           </div>
         </div>

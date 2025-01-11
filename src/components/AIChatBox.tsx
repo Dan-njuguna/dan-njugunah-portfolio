@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@/utils";
 import { Message, useChat } from "ai/react";
 import { Bot, SendHorizontal, Trash, XCircle } from "lucide-react";
